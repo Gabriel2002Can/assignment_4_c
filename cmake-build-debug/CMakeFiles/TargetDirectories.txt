@@ -1,0 +1,3 @@
+C:/Users/gabri/Downloads/assignment_4_c-master/assignment_4_c-master/cmake-build-debug/CMakeFiles/zombieSim.dir
+C:/Users/gabri/Downloads/assignment_4_c-master/assignment_4_c-master/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/gabri/Downloads/assignment_4_c-master/assignment_4_c-master/cmake-build-debug/CMakeFiles/rebuild_cache.dir

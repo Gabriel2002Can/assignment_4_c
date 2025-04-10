@@ -1,0 +1,3 @@
+C:\Users\gabri\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\zombieSim.dir/objects.a
+C:\Users\gabri\AppData\Local\Programs\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\zombieSim.dir/objects.a @CMakeFiles\zombieSim.dir\objects1.rsp
+C:\Users\gabri\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\zombieSim.dir/objects.a -Wl,--no-whole-archive -o zombieSim.exe -Wl,--out-implib,libzombieSim.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\zombieSim.dir\linkLibs.rsp
