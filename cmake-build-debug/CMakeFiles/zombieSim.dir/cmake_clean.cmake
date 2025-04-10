@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/zombieSim.dir/src/City.cpp.obj"
   "CMakeFiles/zombieSim.dir/src/City.cpp.obj.d"
+  "CMakeFiles/zombieSim.dir/src/Color.cpp.obj"
+  "CMakeFiles/zombieSim.dir/src/Color.cpp.obj.d"
   "CMakeFiles/zombieSim.dir/src/Human.cpp.obj"
   "CMakeFiles/zombieSim.dir/src/Human.cpp.obj.d"
   "CMakeFiles/zombieSim.dir/src/Organism.cpp.obj"

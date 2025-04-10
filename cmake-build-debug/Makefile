@@ -152,6 +152,30 @@ src/City.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\zombieSim.dir\build.make CMakeFiles/zombieSim.dir/src/City.cpp.s
 .PHONY : src/City.cpp.s
 
+src/Color.obj: src/Color.cpp.obj
+.PHONY : src/Color.obj
+
+# target to build an object file
+src/Color.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zombieSim.dir\build.make CMakeFiles/zombieSim.dir/src/Color.cpp.obj
+.PHONY : src/Color.cpp.obj
+
+src/Color.i: src/Color.cpp.i
+.PHONY : src/Color.i
+
+# target to preprocess a source file
+src/Color.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zombieSim.dir\build.make CMakeFiles/zombieSim.dir/src/Color.cpp.i
+.PHONY : src/Color.cpp.i
+
+src/Color.s: src/Color.cpp.s
+.PHONY : src/Color.s
+
+# target to generate assembly for a file
+src/Color.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\zombieSim.dir\build.make CMakeFiles/zombieSim.dir/src/Color.cpp.s
+.PHONY : src/Color.cpp.s
+
 src/Human.obj: src/Human.cpp.obj
 .PHONY : src/Human.obj
 
@@ -260,6 +284,9 @@ help:
 	@echo ... src/City.obj
 	@echo ... src/City.i
 	@echo ... src/City.s
+	@echo ... src/Color.obj
+	@echo ... src/Color.i
+	@echo ... src/Color.s
 	@echo ... src/Human.obj
 	@echo ... src/Human.i
 	@echo ... src/Human.s

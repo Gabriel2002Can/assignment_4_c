@@ -638,6 +638,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gabri\Downloads\assignment_4_c-master\assignment_4_c-master\headers" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
@@ -659,7 +664,7 @@
       <option name="presentableId" value="Default" />
       <updated>1743822966064</updated>
       <workItem from="1743822967223" duration="1855000" />
-      <workItem from="1744213694770" duration="17150000" />
+      <workItem from="1744213694770" duration="19187000" />
     </task>
     <servers />
   </component>
@@ -675,16 +680,5 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/City.cpp</url>
-          <line>161</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

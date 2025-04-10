@@ -7,7 +7,8 @@
 #include "../headers/Human.h"
 #include "../headers/Zombie.h"
 #include "../headers/Organism.h"
-#include <vector>
+#include "../headers/Color.h"
+
 
 City::City(){
 generation = 0; numberHumans = 0; numberZombies = 0;
@@ -21,7 +22,9 @@ generation = 0; numberHumans = 0; numberZombies = 0;
   //Random seed
   srand(static_cast<unsigned int>(time(nullptr)));
 
+  Col(3);
   std::cout << "Trying to place " << HUMAN_STARTCOUNT << " humans." << std::endl;
+  Col(7);
 
   //Placing humans
   int placedHumans = 0;
@@ -30,16 +33,18 @@ generation = 0; numberHumans = 0; numberZombies = 0;
     int x = rand() % GRIDSIZE;
 
     if (grid[y][x] == nullptr) {
+      Col(3);
       std::cout << "Placing human at: " << y << ", " << x << std::endl;
+      Col(7);
 
       grid[y][x] = new Human(this, y, x);
       placedHumans++;
       numberHumans++;
     }
   }
-
+  Col(12);
   std::cout << "Trying to place " << ZOMBIE_STARTCOUNT << " zombies." << std::endl;
-
+  Col(7);
   //Place Zombies
   int placedZombies = 0;
   while (placedZombies < ZOMBIE_STARTCOUNT) {
@@ -47,31 +52,43 @@ generation = 0; numberHumans = 0; numberZombies = 0;
     int x = rand() % GRIDSIZE;
 
     if (grid[y][x] == nullptr) {
+      Col(12);
       std::cout << "Placing zombie at: " << y << ", " << x << std::endl;
-
+      Col(7);
       grid[y][x] = new Zombie(this, y, x);
       placedZombies++;
       numberZombies++;
     }
   }
 
+  std::cout<< "\n\n\n";
+  Col(3);
   std::cout << "Humans placed: " << numberHumans << std::endl;
+  Col(12);
   std::cout << "Zombies placed: " << numberZombies << std::endl;
+  Col(7);
+
+  std::cout<< "\n\n\n";
 
   for(int y = 0; y < GRIDSIZE; y++){
     for(int x = 0; x < GRIDSIZE; x++) {
       Organism* org = grid[y][x];
 
       if (org == nullptr) {
+        Col(7);
         cout << "-";
       }
 
       else if (org->getType() == HUMAN) {
+        Col(3);
         cout << "H";
+        Col(7);
       }
 
       else if (org->getType() == ZOMBIE) {
+        Col(12);
         cout << "Z";
+        Col(7);
       }
     }
     cout << endl;
@@ -103,15 +120,20 @@ ostream& operator<<(ostream& os, City& city) {
       Organism* org = city.grid[y][x];
 
       if (org == nullptr) {
+        Col(7);
         os << "-";
       }
 
       else if (org->getType() == HUMAN) {
+        Col(3);
         os << "H";
+        Col(7);
       }
 
       else if (org->getType() == ZOMBIE) {
-        os << org->getAge();
+        Col(12);
+        os << "Z";
+        Col(7);
       }
     }
     os << endl;

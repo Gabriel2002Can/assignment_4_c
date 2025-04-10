@@ -12,4 +12,6 @@ add_executable(zombieSim src/main.cpp
         ../headers/Zombie.h
         src/Human.cpp
         ../headers/Human.h
-        ../headers/GameSpecs.h)
+        ../headers/GameSpecs.h
+        src/Color.cpp
+        headers/Color.h)

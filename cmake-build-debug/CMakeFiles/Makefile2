@@ -80,12 +80,12 @@ clean: CMakeFiles/zombieSim.dir/clean
 CMakeFiles/zombieSim.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\zombieSim.dir\build.make CMakeFiles/zombieSim.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\zombieSim.dir\build.make CMakeFiles/zombieSim.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\Downloads\assignment_4_c-master\assignment_4_c-master\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target zombieSim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\gabri\Downloads\assignment_4_c-master\assignment_4_c-master\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target zombieSim"
 .PHONY : CMakeFiles/zombieSim.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/zombieSim.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\Downloads\assignment_4_c-master\assignment_4_c-master\cmake-build-debug\CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\Downloads\assignment_4_c-master\assignment_4_c-master\cmake-build-debug\CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/zombieSim.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\gabri\Downloads\assignment_4_c-master\assignment_4_c-master\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/zombieSim.dir/rule

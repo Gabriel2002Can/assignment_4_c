@@ -1,5 +1,7 @@
 #ifndef _GAMESPECS_H
 #define _GAMESPECS_H
+#include <iostream>
+#include <windows.h>
 
 
 const int GRIDSIZE = 20; // size of the square grid

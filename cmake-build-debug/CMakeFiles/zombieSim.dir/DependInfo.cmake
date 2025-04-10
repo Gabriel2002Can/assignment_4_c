@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/gabri/Downloads/assignment_4_c-master/assignment_4_c-master/src/Human.cpp" "CMakeFiles/zombieSim.dir/src/Human.cpp.obj" "gcc" "CMakeFiles/zombieSim.dir/src/Human.cpp.obj.d"
   "C:/Users/gabri/Downloads/assignment_4_c-master/assignment_4_c-master/src/Organism.cpp" "CMakeFiles/zombieSim.dir/src/Organism.cpp.obj" "gcc" "CMakeFiles/zombieSim.dir/src/Organism.cpp.obj.d"
   "C:/Users/gabri/Downloads/assignment_4_c-master/assignment_4_c-master/src/Zombie.cpp" "CMakeFiles/zombieSim.dir/src/Zombie.cpp.obj" "gcc" "CMakeFiles/zombieSim.dir/src/Zombie.cpp.obj.d"
+  "C:/Users/gabri/Downloads/assignment_4_c-master/assignment_4_c-master/src/Color.cpp" "CMakeFiles/zombieSim.dir/src/color.cpp.obj" "gcc" "CMakeFiles/zombieSim.dir/src/color.cpp.obj.d"
   "C:/Users/gabri/Downloads/assignment_4_c-master/assignment_4_c-master/src/main.cpp" "CMakeFiles/zombieSim.dir/src/main.cpp.obj" "gcc" "CMakeFiles/zombieSim.dir/src/main.cpp.obj.d"
   )
 

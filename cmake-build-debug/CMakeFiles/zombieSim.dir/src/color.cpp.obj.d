@@ -1,6 +1,6 @@
-CMakeFiles/zombieSim.dir/src/Human.cpp.obj: \
- C:\Users\gabri\Downloads\assignment_4_c-master\assignment_4_c-master\src\Human.cpp \
- C:/Users/gabri/Downloads/assignment_4_c-master/assignment_4_c-master/headers/GameSpecs.h \
+CMakeFiles/zombieSim.dir/src/Color.cpp.obj: \
+ C:\Users\gabri\Downloads\assignment_4_c-master\assignment_4_c-master\src\Color.cpp \
+ C:/Users/gabri/Downloads/assignment_4_c-master/assignment_4_c-master/headers/Color.h \
  C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
  C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -396,78 +396,5 @@ CMakeFiles/zombieSim.dir/src/Human.cpp.obj: \
  C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/winsvc.h \
  C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/mcx.h \
  C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/imm.h \
- C:/Users/gabri/Downloads/assignment_4_c-master/assignment_4_c-master/headers/Human.h \
- C:/Users/gabri/Downloads/assignment_4_c-master/assignment_4_c-master/headers/Organism.h \
- C:/Users/gabri/Downloads/assignment_4_c-master/assignment_4_c-master/headers/GameSpecs.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/vector \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_uninitialized.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_vector.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/vector.tcc \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/algorithm \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_algo.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/algorithmfwd.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_heap.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uniform_int_dist.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_tempbuf.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_algo.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_algobase.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_algorithm_defs.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/execution_defs.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/random \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cmath \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/math.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/specfun.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/gamma.tcc \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/special_function_util.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/bessel_function.tcc \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/beta_function.tcc \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/ell_integral.tcc \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/exp_integral.tcc \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/hypergeometric.tcc \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/legendre_function.tcc \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/modified_bessel_func.tcc \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/poly_hermite.tcc \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/poly_laguerre.tcc \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/riemann_zeta.tcc \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/cstdint \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdint.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/stdint.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/random.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/opt_random.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/random.tcc \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numeric \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_numeric.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_numeric_defs.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/chrono \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/chrono.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ratio \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ctime \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/parse_numbers.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/sstream \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/sstream.tcc \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/shared_ptr_base.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/allocated_ptr.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/unique_ptr.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/aligned_buffer.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ext/concurrence.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/align.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/chrono_io.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iomanip \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/locale \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/codecvt.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.tcc \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_conv.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/quoted_string.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/format \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/array \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/charconv \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/optional \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/enable_special_members.h \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/span \
- C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/variant
+ C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/conio.h \
+ C:/Users/gabri/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include/sec_api/conio_s.h

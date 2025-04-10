@@ -10,12 +10,13 @@
 #include <thread>
 #include "../headers/Organism.h"
 #include "../headers/City.h"
+#include "../headers/Color.h"
 
 using namespace std;
 
 void ClearScreen()
 {
-    cout << "\n\n\n";
+    cout << "\n\n\n\n\n";
 
     //cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
 }
@@ -44,12 +45,18 @@ int main() {
         city->reset(); //resets moved flags
 
         cout << *city; //prints city
-        cout << "GENERATION " << city->getGeneration() << endl;
+        Col(6);
+        cout << "\nGENERATION " << city->getGeneration() << endl;
+        Col(3);
         cout << "HUMANS: " << city->getNumberHumans() << endl;
+        Col(12);
         cout << "ZOMBIES: " << city->getNumberZombies() << endl;
+        Col(7);
 
         if (city->getNumberHumans() == 0 && city->getNumberZombies() == 0) {
+            Col(12);
             cout << "ERROR: No organisms present!" << endl;
+            Col(7);
             break;
         }
 
